@@ -9,6 +9,7 @@ import numpy as np
 import mysql.connector
 from mysql.connector import Error
 
+###exemplo de comentário
 #conexão com o banco
 try:
   con = mysql.connector.connect(host = 'localhost', database = 'pji', user = 'root', password = 'rhm0712')
